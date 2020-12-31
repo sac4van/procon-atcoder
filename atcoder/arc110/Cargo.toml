@@ -1,0 +1,12 @@
+[package]
+name = "arc110"
+version = "0.1.0"
+authors = ["sac4van <sac4van@local>"]
+edition = "2018"
+
+# dependencies added to new project
+[dependencies]
+
+[profile.release]
+lto = true
+panic = 'abort'
