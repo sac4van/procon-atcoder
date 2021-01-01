@@ -15,7 +15,8 @@ panic = 'abort'
 
 # dependencies added to new project
 [dependencies]
-proconio = { version = "0.3.6", features = ["derive"] }
+proconio = { version = "0.4.1", features = ["derive"] }
+itertools = { version = "0.10.0" }
 # competitive = { git = "https://github.com/tanakh/competitive-rs.git" }
 
 [project]
@@ -24,7 +25,10 @@ proconio = { version = "0.3.6", features = ["derive"] }
 
 # source code template
 template = """
-use proconio::{fastout, input};
+use proconio::*;
+use proconio::marker::*;
+use std::cmp::*;
+use std::collections::*;
 
 #[fastout]
 fn main() {
