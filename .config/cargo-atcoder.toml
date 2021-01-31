@@ -17,6 +17,7 @@ panic = 'abort'
 [dependencies]
 proconio = { version = "0.4.1", features = ["derive"] }
 itertools = { version = "0.10.0" }
+# priority-queue = { version = "1.0.5" }
 # competitive = { git = "https://github.com/tanakh/competitive-rs.git" }
 
 [project]

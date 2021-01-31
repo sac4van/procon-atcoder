@@ -1,4 +1,7 @@
-use proconio::{fastout, input};
+use proconio::*;
+use proconio::marker::*;
+use std::cmp::*;
+use std::collections::*;
 
 #[fastout]
 fn main() {
